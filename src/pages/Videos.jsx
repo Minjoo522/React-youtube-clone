@@ -21,7 +21,11 @@ export default function Videos() {
   return (
     <ul>
       {videos.map((video) => (
-        <VideoCard key={video.id} id={video.id} video={video.snippet} />
+        <VideoCard
+          key={keyword ? video.id.videoId : video.id}
+          id={keyword ? video.id.videoId : video.id}
+          video={video.snippet}
+        />
       ))}
     </ul>
   );
