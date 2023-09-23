@@ -1,0 +1,43 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "8phOBBPeygfRH4V-p5iQOgw5C04",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "A0OdBrTs1TxD8HuQO_ZM8YsmlWM",
+      "id": "UCWaWvDRyhmSKOQWah7t7wuA",
+      "snippet": {
+        "title": "일일칠 - 117",
+        "description": "맛템 도감 완성 중 ■■□□□□□ 17%...\n😋맛있는 거 먹으면서, 맛있는 거 보세요\n\n🌱덱스의 냉터뷰🌱 격주 목요일\n\n- 기획/제작 : Kurly\n- 제공 : 일일칠\n- 문의 : info@ch117.kr\n",
+        "customUrl": "@ch117",
+        "publishedAt": "2021-11-02T01:44:05.090748Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/UDzSxewPCuUY2bkQaLCQIjt6_U0hBrctBRws5gHkEp14RrrHPuBKWTdLuibpoJp_YxYLtcbs7Q=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/UDzSxewPCuUY2bkQaLCQIjt6_U0hBrctBRws5gHkEp14RrrHPuBKWTdLuibpoJp_YxYLtcbs7Q=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/UDzSxewPCuUY2bkQaLCQIjt6_U0hBrctBRws5gHkEp14RrrHPuBKWTdLuibpoJp_YxYLtcbs7Q=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "일일칠 - 117",
+          "description": "맛템 도감 완성 중 ■■□□□□□ 17%...\n😋맛있는 거 먹으면서, 맛있는 거 보세요\n\n🌱덱스의 냉터뷰🌱 격주 목요일\n\n- 기획/제작 : Kurly\n- 제공 : 일일칠\n- 문의 : info@ch117.kr\n"
+        },
+        "country": "KR"
+      }
+    }
+  ]
+}
