@@ -1,0 +1,90 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "56zprPF7vjfSWB9juql3I8etHpo",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "v18BgkU_lywBLpg6-X2huoo-wTc",
+      "id": "mAPYDtrp-Q0",
+      "snippet": {
+        "publishedAt": "2023-09-08T09:00:35Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[릴레이댄스] RIIZE(라이즈) - Get A Guitar (4K)",
+        "description": "[릴레이댄스] 라이즈 - 겟 어 기타\n[Relay Dance] RIIZE - Get A Guitar \n\n세상에 있는 모든 기타를 Get하게 만드는\n라이즈의 첫 릴댄에 브리즈들 떨렘 가득❤️\n\n#릴레이댄스 #RelayDance \n\nMore from #M2? :D\n\nFacebook:  https://www.facebook.com/MnetM2/\nTwitter:       https://twitter.com/M2MPD/\nInstagram: https://www.instagram.com/M2MPD/\nTikTok:       https://www.tiktok.com/@m2mpd",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "M2",
+        "tags": [
+          "Dance",
+          "K-Pop",
+          "Kpop",
+          "K팝",
+          "Live",
+          "M2",
+          "MPD",
+          "Mnet",
+          "댄스",
+          "라이브",
+          "아이돌",
+          "안무",
+          "엠넷",
+          "엠투",
+          "엠피디",
+          "한국"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[릴레이댄스] RIIZE(라이즈) - Get A Guitar (4K)",
+          "description": "[릴레이댄스] 라이즈 - 겟 어 기타\n[Relay Dance] RIIZE - Get A Guitar \n\n세상에 있는 모든 기타를 Get하게 만드는\n라이즈의 첫 릴댄에 브리즈들 떨렘 가득❤️\n\n#릴레이댄스 #RelayDance \n\nMore from #M2? :D\n\nFacebook:  https://www.facebook.com/MnetM2/\nTwitter:       https://twitter.com/M2MPD/\nInstagram: https://www.instagram.com/M2MPD/\nTikTok:       https://www.tiktok.com/@m2mpd"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT4M3S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "662368",
+        "likeCount": "41744",
+        "favoriteCount": "0",
+        "commentCount": "1251"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
