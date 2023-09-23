@@ -27,6 +27,7 @@ export default function VideoDetail() {
   return (
     <>
       <iframe
+        title={videoId}
         id='player'
         type='text/html'
         width='640'
