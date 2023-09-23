@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "k9AixV7APSiw59lRfKzbpjopGS4",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0W3TnmZCRR7IKKc2hISJQWs4a2s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iUw3LPM7OBU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-04T09:00:24Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "RIIZE 라이즈 &#39;Get A Guitar&#39; MV",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iUw3LPM7OBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iUw3LPM7OBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iUw3LPM7OBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-04T09:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y26n8ZDi_VEdG9Lkjyk1rPtz2gs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jIG4AaIy-5k"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-06T14:00:17Z",
+        "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+        "title": "[BE ORIGINAL] RIIZE(라이즈) &#39;Get A Guitar&#39; (4K)",
+        "description": "[BE ORIGINAL] RIIZE 'Get A Guitar' [비 오리지널] 라이즈 '겟 어 기타' 세상에서 가장 멋있는 기타는? 정답은 라이즈 스춤 겟어기타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jIG4AaIy-5k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jIG4AaIy-5k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jIG4AaIy-5k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-06T14:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_hLx_gNx3Qxqs-HQxFAF--2_8U8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lPKynzuWt58"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-10T12:00:39Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "WE RIIZE HIGH! ❮그럼 우리 이렇게 일곱 명이 같은 반인가?❯ | WE RIIZE EP.1",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lPKynzuWt58/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lPKynzuWt58/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lPKynzuWt58/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-10T12:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KWQiZjNdzLdtFwFjbP3V9GVtG10",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tZYsvAoSNxQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-06T15:00:43Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "RIIZE 라이즈 &#39;Siren&#39; Performance Video",
+        "description": "Korean Lyrics by Hye-Hyun Bang (Jamfactory) Composed by Benjamin 55 / Young Chance / Xydo Arranged by Benjamin 55 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tZYsvAoSNxQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tZYsvAoSNxQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tZYsvAoSNxQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-06T15:00:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rXEo5rvyzETkfiUmsHpVBrJgdYU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mAPYDtrp-Q0"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-08T09:00:35Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[릴레이댄스] RIIZE(라이즈) - Get A Guitar (4K)",
+        "description": "[릴레이댄스] 라이즈 - 겟 어 기타 [Relay Dance] RIIZE - Get A Guitar 세상에 있는 모든 기타를 Get하게 만드는 라이즈의 첫 릴댄에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mAPYDtrp-Q0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-08T09:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Gbn_QSrco2nJaKFqaotVh6k6crE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NsXHHxpnYrA"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T08:00:12Z",
+        "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+        "title": "[4K] RIIZE(라이즈) -“Memories &amp; Get A Guitar (One Take ver.)” Band LIVE Concert [it’s Live 10mins]",
+        "description": "ONE take or Nothing, it's Live [10mins]! 잇츠라이브에서 선보이는 원테이크 라이브 무대, it's Live [10mins]을 찾아온 RIIZE (라이즈)!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NsXHHxpnYrA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NsXHHxpnYrA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NsXHHxpnYrA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "it's Live",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T08:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AZ636Im90HyMLwx2tZZji2lutSs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QqPGIrLeWGQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-11T11:00:22Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Siren&#39; Dance Practice",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QqPGIrLeWGQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QqPGIrLeWGQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QqPGIrLeWGQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-11T11:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vwWeg_4MlN1dkCEbI2nKlb7CnaA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BcCP4XFNGIg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T14:00:17Z",
+        "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+        "title": "[BE ORIGINAL] RIIZE(라이즈) &#39;Get A Guitar&#39; (Behind) (ENG SUB)",
+        "description": "[BE ORIGINAL] RIIZE 'Get A Guitar' (Behind) [비 오리지널] 라이즈 '겟 어 기타' (비하인드) 눈에 보이는 모든 것이 신기한 (ㄱㅇㅇ.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BcCP4XFNGIg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BcCP4XFNGIg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BcCP4XFNGIg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T14:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wX2v8a2YQXi6zNjHfcZ8qCDk3Eo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tyQ8uvG9NHU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-07T04:05:00Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Memories&#39; Performance Video",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tyQ8uvG9NHU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tyQ8uvG9NHU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tyQ8uvG9NHU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-07T04:05:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HN3_wwMhIWNVnItoVyXb9NsG_KI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UOPcXDvGmRs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T07:23:59Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "RIIZE (라이즈) - Siren | Show! MusicCore | MBC230909방송",
+        "description": "RIIZE (라이즈) - Siren | Show! MusicCore | MBC230909방송 #RIIZE #Siren #MBCKPOP More clips are available ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UOPcXDvGmRs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UOPcXDvGmRs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UOPcXDvGmRs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T07:23:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ALgpNsiP5A1xHBAkqSj4Z2Mltpk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2H0duKgnYgE"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-21T09:00:01Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "RIIZE 라이즈 &#39;Memories&#39; MV",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2H0duKgnYgE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2H0duKgnYgE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2H0duKgnYgE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-21T09:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ya5p4Dnu9cxAnDfu9kbkOsz3P3o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DXDx1mdHaBs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T07:37:51Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "RIIZE (라이즈) - Memories | Show! MusicCore | MBC230909방송",
+        "description": "RIIZE (라이즈) - Memories | Show! MusicCore | MBC230909방송 #RIIZE #Memories #MBCKPOP More clips are ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DXDx1mdHaBs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DXDx1mdHaBs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DXDx1mdHaBs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T07:37:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "88DlSYAYF5vc8QAQzV9OEfR6MHM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XYKBf6iDZ_Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-23T14:00:15Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[Performance37] RIIZE(라이즈) &#39;Memories&#39; (4K)",
+        "description": "[Performance37] RIIZE 'Memories' [퍼포먼스37] 라이즈 '메모리즈' 어느 앵글에서든 완벽한 신인아이돌   라이즈표 청량 퍼포먼스!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XYKBf6iDZ_Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XYKBf6iDZ_Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XYKBf6iDZ_Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-23T14:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w5UCzWnY1qPwnEdk5AVHDb7GtJM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GWw8RKQfcCQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-16T12:00:19Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Memories&#39; Dance Practice",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GWw8RKQfcCQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GWw8RKQfcCQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GWw8RKQfcCQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-16T12:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vSys-k0Aj3KJgF5ObsjcLntkCWc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kHkrsgK-UHw"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-08T08:59:26Z",
+        "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+        "title": "Get A Guitar - RIIZE [뮤직뱅크/Music Bank] | KBS 230908 방송",
+        "description": "Get A Guitar - RIIZE KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 15분에 방송됩니다. #GetAGuitar #가요 #가수 #음악 #케이팝 #RIIZE ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kHkrsgK-UHw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kHkrsgK-UHw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kHkrsgK-UHw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS Kpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-08T08:59:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tiuspj_CdbwaFNCbNNgGhwySdlU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MCiRj41MSqg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-23T08:00:56Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "[예능연구소] RIIZE - Get A Guitar(라이즈 – 겟 어 기타) FanCam | Show! MusicCore | MBC230923방송",
+        "description": "[예능연구소] RIIZE - Get A Guitar(라이즈 – 겟 어 기타) FanCam | Show! MusicCore | MBC230923방송 #RIIZE #GetAGuitar ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MCiRj41MSqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MCiRj41MSqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MCiRj41MSqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-23T08:00:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YS5N_Aqe1Xt9r2SIBXhp5bsBL2E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u_u21u8zIIs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-19T12:01:00Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Get A Guitar&#39; Dance Practice",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u_u21u8zIIs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u_u21u8zIIs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u_u21u8zIIs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-19T12:01:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c3UhlSqAFZuq37L1baSOnaSGyWo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MDz2HT8MWyo"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T07:48:38Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "RIIZE (라이즈) - Get A Guitar | Show! MusicCore | MBC230909방송",
+        "description": "RIIZE (라이즈) - Get A Guitar | Show! MusicCore | MBC230909방송 #RIIZE #GetAGuitar #MBCKPOP More clips are ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MDz2HT8MWyo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MDz2HT8MWyo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MDz2HT8MWyo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T07:48:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PYdtGmpT3tGqMjchEoDWK0SF3Sg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mPq1N-5y0EA"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-04T09:59:09Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 : Introduction Film",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mPq1N-5y0EA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mPq1N-5y0EA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mPq1N-5y0EA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-04T09:59:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ye2JS8PIPuYhgMmgmrIHUdJlNB4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x71N8fFoTZQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-29T01:40:15Z",
+        "channelId": "UCJm9D9E6hLjiYBRii_dsk0A",
+        "title": "결혼식 전 서로의 생얼을 봐야하는 이유",
+        "description": "재미있게 시청해주셨다면 댓글과 좋아요 하나씩 해주시면 감사하겠습니다!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x71N8fFoTZQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x71N8fFoTZQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x71N8fFoTZQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "킹스마일",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-29T01:40:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MewKuM3UM-Hmty2NndAEfPUn7oI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pLNGbaPbOUQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-17T12:00:38Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "WE RIIZE HIGH! ❮DJ DROP THE BEAT❯ | WE RIIZE EP.2",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pLNGbaPbOUQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pLNGbaPbOUQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pLNGbaPbOUQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-17T12:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tc3DDxdvLvoUXASOJ_SheOphLTw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QO1Woq5VdLc"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-09T12:00:16Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Get A Guitar&#39; MV Commentary",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QO1Woq5VdLc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QO1Woq5VdLc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QO1Woq5VdLc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-09T12:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MURgpXS3jqjcOIIiVK_0Ex7fM48",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Qo8PZEHC9wk"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-07T01:55:09Z",
+        "channelId": "UC1HHeTLXHMM5FiEyQpS1toA",
+        "title": "(CC) Meet the new RIIZEing boy group🤘🎸 | Question Parade | RIIZE 라이즈",
+        "description": "Click CC for 한국어/日本語/español/português/中文/bahasa Indonesia/ภาษาไทย/tiếng Việt/français/عربى/русский язык/türkçe I'm ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qo8PZEHC9wk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qo8PZEHC9wk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qo8PZEHC9wk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "hello82",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-07T01:55:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ICFU3eq4cBwob5h9wpWlW2HrcGg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y6K7ZT_tAxc"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-07T04:00:33Z",
+        "channelId": "UCdVD0MsYecQaIE5Ru-pOIQQ",
+        "title": "RIIZE 라이즈 &#39;Get A Guitar&#39; Performance Video",
+        "description": "RIIZE's 1st single \"Get A Guitar\" is out! Listen and download on your favorite platform: https://RIIZE.lnk.to/GetAGuitar 'Get A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y6K7ZT_tAxc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y6K7ZT_tAxc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y6K7ZT_tAxc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RIIZE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-07T04:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Gjvw224txSL0MVMq7S_ty8o1PJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cfgZGvwSGBk"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T04:54:59Z",
+        "channelId": "UCkPp7PMd1sOcsJCq8_3-1fw",
+        "title": "라이즈(RIIZE), 귀요미 막내들 조심조심 입장~(출국)✈️’SMTOWN LIVE 2023 in Jakarta’ Airport Departure 23.9.22. #Newsen",
+        "description": "'뉴스엔' 채널 구독하세요! 'Newsen' Subscribe! 클릭! ☞ https://bit.ly/2GZhivT [인천공항(영종도)=뉴스엔 홍밝음 기자] 가수 라이즈가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cfgZGvwSGBk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cfgZGvwSGBk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cfgZGvwSGBk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뉴스엔·NewsenTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T04:54:59Z"
+      }
+    }
+  ]
+}
