@@ -1,26 +1,27 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../components/VideoCard';
+import { useParams } from 'react-router-dom';
 
 export default function Videos() {
-  // const [keyword, setKeyword] = useState('');
+  const { keyword } = useParams();
   const {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos'], async () => {
+  } = useQuery(['videos', keyword], async () => {
     console.log('fetching...');
-    // let fetchUrl = !keyword ? 'popular_videos.json' : 'list_by_keyword.json'
-    let fetchUrl = 'popular_videos.json';
-    return fetch(`data/${fetchUrl}`).then((res) => res.json());
+    return fetch(`/data/${keyword ? 'search' : 'popular'}.json`)
+      .then((res) => res.json())
+      .then((data) => data.items);
   });
   if (isLoading) return <p>Loading...</p>;
 
   if (error) return <p>{error}</p>;
   return (
     <ul>
-      {videos.items.map((video) => (
-        <VideoCard key={video.id} video={video} />
+      {videos.map((video) => (
+        <VideoCard key={video.id} id={video.id} video={video.snippet} />
       ))}
     </ul>
   );
