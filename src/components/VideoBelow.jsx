@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Channel from './Channel';
 
 export default function VideoBelow({ video }) {
   const [isExpanded, setIsExpended] = useState(false);
@@ -7,10 +8,11 @@ export default function VideoBelow({ video }) {
   };
   return (
     <div>
-      <h2>{video.snippet.title}</h2>
-      <div>
-        <span>조회수 {formatNumber(video.statistics.viewCount)}회</span>
-        <span>{formatDate(video.snippet.publishedAt)}</span>
+      <h2 className='font-bold text-2xl my-3'>{video.snippet.title}</h2>
+      <Channel id={video.snippet.channelId} />
+      <div className='text-sm p-3 mt-3 rounded-lg bg-gray-200'>
+        <span className='font-bold mr-2'>조회수 {formatNumber(video.statistics.viewCount)}회</span>
+        <span className='font-bold'>{formatDate(video.snippet.publishedAt)}</span>
         {isExpanded ? (
           <>
             <div>{video.snippet.description}</div>

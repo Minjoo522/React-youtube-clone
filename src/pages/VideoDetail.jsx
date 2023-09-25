@@ -2,7 +2,6 @@ import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
 import VideoBelow from '../components/VideoBelow';
-import Channel from '../components/Channel';
 import Populars from '../components/Populars';
 import YouTube from 'react-youtube';
 
@@ -22,16 +21,21 @@ export default function VideoDetail() {
 
   if (error) return <p>{error}</p>;
   return (
-    <>
-      <YouTube videoId={videoId} />
-      {video &&
-        video.map((v) => (
-          <section key={v.id}>
-            <Channel id={v.channelId} />
-            <VideoBelow video={v} />
-          </section>
-        ))}
-      <Populars />
-    </>
+    <main className='flex flex-col sm:flex-col md:flex-col lg:flex-row gap-4'>
+      <div className='flex flex-col w-full'>
+        <div className='relative pt-[56.25%]'>
+          <YouTube iframeClassName={'absolute w-full h-full top-0 left-0 rounded-md'} videoId={videoId} />
+        </div>
+        {video &&
+          video.map((v) => (
+            <section key={v.id}>
+              <VideoBelow video={v} />
+            </section>
+          ))}
+      </div>
+      <aside className='w-full sm:w-full md:w-full lg:w-1/4'>
+        <Populars />
+      </aside>
+    </main>
   );
 }
