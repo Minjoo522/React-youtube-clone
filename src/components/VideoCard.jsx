@@ -1,4 +1,6 @@
 import React from 'react';
+import Channel from './Channel';
+import formatDate from './formatDate';
 
 export default function VideoCard({ id, video }) {
   return (
@@ -7,8 +9,10 @@ export default function VideoCard({ id, video }) {
         <img src={video.thumbnails.medium.url} alt='video thumbnail' />
       </a>
       <a href={`/videos/watch/${id}`}>
-        <span>{video.title}</span>
+        <h3 dangerouslySetInnerHTML={{ __html: video.title }} />
       </a>
+      <Channel id={video.channelId} />
+      <span>{formatDate(video.publishedAt)}</span>
     </li>
   );
 }

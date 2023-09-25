@@ -15,6 +15,7 @@ export default function Videos() {
       .then((res) => res.json())
       .then((data) => data.items);
   });
+
   if (isLoading) return <p>Loading...</p>;
 
   if (error) return <p>{error}</p>;
