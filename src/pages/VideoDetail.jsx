@@ -33,9 +33,9 @@ export default function VideoDetail() {
             </section>
           ))}
       </div>
-      <div className='w-1/4'>
+      <aside className='w-full sm:w-full md:w-full lg:w-1/4'>
         <Populars />
-      </div>
+      </aside>
     </main>
   );
 }
