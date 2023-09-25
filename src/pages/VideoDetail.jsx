@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import VideoBelow from '../components/VideoBelow';
 import Channel from '../components/Channel';
+import Populars from '../components/Populars';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -35,6 +36,7 @@ export default function VideoDetail() {
             <VideoBelow video={v} />
           </section>
         ))}
+      <Populars />
     </>
   );
 }
