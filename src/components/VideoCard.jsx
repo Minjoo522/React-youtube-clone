@@ -6,13 +6,15 @@ export default function VideoCard({ id, video }) {
   return (
     <li>
       <a href={`/videos/watch/${id}`}>
-        <img src={video.thumbnails.medium.url} alt='video thumbnail' />
+        <img src={video.thumbnails.medium.url} alt='video thumbnail' className='w-full rounded-md' />
       </a>
-      <a href={`/videos/watch/${id}`}>
-        <h3 dangerouslySetInnerHTML={{ __html: video.title }} />
-      </a>
+      <div>
+        <a href={`/videos/watch/${id}`}>
+          <h3 className='font-bold line-clamp-2' dangerouslySetInnerHTML={{ __html: video.title }} />
+        </a>
+      </div>
       <Channel id={video.channelId} />
-      <span>{formatDate(video.publishedAt)}</span>
+      <span className='text-xs text-slate-500'>{formatDate(video.publishedAt)}</span>
     </li>
   );
 }

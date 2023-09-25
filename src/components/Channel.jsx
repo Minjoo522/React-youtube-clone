@@ -12,10 +12,12 @@ export default function Channel({ id }) {
     <>
       {channel &&
         channel.map((c) => (
-          <div key={c.id}>
-            <img src={c.snippet.thumbnails.medium.url} alt='channel thumbnail' />
-            <span>{c.snippet.title}</span>
-            <span>{formatSubscriber(c.statistics.subscriberCount)}</span>
+          <div className='flex items-center' key={c.id}>
+            <img className='avatar-size rounded-full' src={c.snippet.thumbnails.medium.url} alt='channel thumbnail' />
+            <div className='flex flex-col ml-2 text-sm'>
+              <span>{c.snippet.title}</span>
+              <span>{formatSubscriber(c.statistics.subscriberCount)}</span>
+            </div>
           </div>
         ))}
     </>
