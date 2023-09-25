@@ -10,7 +10,7 @@ export default function VideoBelow({ video }) {
     <div>
       <h2 className='font-bold text-2xl my-3'>{video.snippet.title}</h2>
       <Channel id={video.snippet.channelId} />
-      <div className='text-sm p-3 mt-3 rounded-lg bg-gray-200'>
+      <div className='text-sm p-3 mt-3 rounded-lg bg-gray-200 dark:text-black'>
         <span className='font-bold mr-2'>조회수 {formatNumber(video.statistics.viewCount)}회</span>
         <span className='font-bold'>{formatDate(video.snippet.publishedAt)}</span>
         {isExpanded ? (

@@ -20,7 +20,7 @@ export default function SearchBar() {
   return (
     <form className='m-auto flex items-center' onSubmit={handleSubmit}>
       <input
-        className='md:w-96 lg:w-96 h-8 text-m px-3 py-0.5 border border-slate-300 rounded-l-full shadow-sm focus:outline-none'
+        className='bg-inherit md:w-96 lg:w-96 h-8 text-m px-3 py-0.5 border border-slate-300 rounded-l-full focus:outline-none'
         type='text'
         placeholder='검색'
         value={text}
@@ -28,7 +28,7 @@ export default function SearchBar() {
           setText(e.target.value);
         }}
       />
-      <button className='h-8 px-3 py-0.5 border border-slate-300 rounded-r-full shadow-sm' type='submit'>
+      <button className='h-8 px-3 py-0.5 border border-slate-300 rounded-r-full' type='submit'>
         <FaSearch className='text-xl' />
       </button>
     </form>

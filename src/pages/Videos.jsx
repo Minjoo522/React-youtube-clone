@@ -20,7 +20,7 @@ export default function Videos() {
 
   if (error) return <p>{error}</p>;
   return (
-    <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
+    <ul className='dark:bg-gray-700 dark:text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
       {videos.map((video) => (
         <VideoCard
           key={keyword ? video.id.videoId : video.id}
