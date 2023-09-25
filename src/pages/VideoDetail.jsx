@@ -5,6 +5,7 @@ import VideoBelow from '../components/VideoBelow';
 import Populars from '../components/Populars';
 import YouTube from 'react-youtube';
 import { youtubeKey } from '../api_key';
+import axios from 'axios';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -16,11 +17,11 @@ export default function VideoDetail() {
   } = useQuery(
     ['video', videoId],
     async () => {
-      return fetch(
-        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}&key=${youtubeKey}`
-      )
-        .then((res) => res.json())
-        .then((data) => data.items);
+      return axios
+        .get(
+          `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}&key=${youtubeKey}`
+        )
+        .then((res) => res.data.items);
     },
     { staleTime: 1000 * 60 * 3 }
   );
