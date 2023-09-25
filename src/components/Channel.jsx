@@ -1,17 +1,18 @@
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import { youtubeKey } from '../api_key';
+import axios from 'axios';
 
 export default function Channel({ id }) {
   // 채널 정보 가져오기
   const { data: channel } = useQuery(
     ['channel', id],
     async () => {
-      return fetch(
-        `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${id}&key=${youtubeKey}`
-      )
-        .then((res) => res.json())
-        .then((data) => data.items);
+      return axios
+        .get(
+          `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${id}&key=${youtubeKey}`
+        )
+        .then((res) => res.data.items);
     },
     { staleTime: 1000 * 60 * 3 }
   );

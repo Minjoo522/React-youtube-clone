@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../components/VideoCard';
 import { useParams } from 'react-router-dom';
 import { youtubeKey } from '../api_key';
+import axios from 'axios';
 
 export default function Videos() {
   const { keyword } = useParams();
@@ -13,13 +14,10 @@ export default function Videos() {
   } = useQuery(
     ['videos', keyword],
     async () => {
-      console.log('fetching...');
       const searchUrl = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${keyword}&type=video&key=`;
       const popularUrl =
         'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=';
-      return fetch(`${keyword ? searchUrl : popularUrl}${youtubeKey}`)
-        .then((res) => res.json())
-        .then((data) => data.items);
+      return axios.get(`${keyword ? searchUrl : popularUrl}${youtubeKey}`).then((res) => res.data.items);
     },
     { staleTime: 1000 * 60 * 3 }
   );
