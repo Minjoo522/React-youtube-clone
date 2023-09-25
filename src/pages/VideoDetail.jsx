@@ -21,7 +21,7 @@ export default function VideoDetail() {
 
   if (error) return <p>{error}</p>;
   return (
-    <main className='flex flex-col sm:flex-col md:flex-col lg:flex-row gap-4'>
+    <main className='dark:bg-gray-700 dark:text-white flex flex-col sm:flex-col md:flex-col lg:flex-row gap-4'>
       <div className='flex flex-col w-full'>
         <div className='relative pt-[56.25%]'>
           <YouTube iframeClassName={'absolute w-full h-full top-0 left-0 rounded-md'} videoId={videoId} />
