@@ -1,8 +1,10 @@
-import { useQuery } from '@tanstack/react-query';
 import React from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
 import VideoBelow from '../components/VideoBelow';
 import Channel from '../components/Channel';
+import Populars from '../components/Populars';
+import YouTube from 'react-youtube';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -21,13 +23,7 @@ export default function VideoDetail() {
   if (error) return <p>{error}</p>;
   return (
     <>
-      <iframe
-        title={videoId}
-        id='player'
-        type='text/html'
-        width='640'
-        height='390'
-        src={`http://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=https://meek-pothos-722a56.netlify.app/`}></iframe>
+      <YouTube videoId={videoId} />
       {video &&
         video.map((v) => (
           <section key={v.id}>
@@ -35,6 +31,7 @@ export default function VideoDetail() {
             <VideoBelow video={v} />
           </section>
         ))}
+      <Populars />
     </>
   );
 }
