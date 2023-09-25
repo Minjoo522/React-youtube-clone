@@ -1,8 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import VideoCard from './VideoCard';
-import { youtubeKey } from '../api_key';
-import axios from 'axios';
+import Youtube from '../api/youtube';
 
 export default function Populars() {
   const {
@@ -11,13 +10,9 @@ export default function Populars() {
     data: videos,
   } = useQuery(
     ['videos'],
-    async () => {
-      console.log('fetching...');
-      return axios
-        .get(
-          `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=${youtubeKey}`
-        )
-        .then((res) => res.data.items);
+    () => {
+      const youtube = new Youtube();
+      return youtube.search();
     },
     { staleTime: 1000 * 60 * 3 }
   );
