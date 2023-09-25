@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import VideoBelow from '../components/VideoBelow';
 import Populars from '../components/Populars';
 import YouTube from 'react-youtube';
+import { youtubeKey } from '../api_key';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -12,11 +13,17 @@ export default function VideoDetail() {
     isLoading,
     error,
     data: video,
-  } = useQuery(['video'], async () => {
-    return fetch(`/data/video_desc.json`)
-      .then((res) => res.json())
-      .then((data) => data.items);
-  });
+  } = useQuery(
+    ['video', videoId],
+    async () => {
+      return fetch(
+        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}&key=${youtubeKey}`
+      )
+        .then((res) => res.json())
+        .then((data) => data.items);
+    },
+    { staleTime: 1000 * 60 * 3 }
+  );
   if (isLoading) return <p>Loading...</p>;
 
   if (error) return <p>{error}</p>;
