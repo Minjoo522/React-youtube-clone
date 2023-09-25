@@ -13,14 +13,13 @@ export default function Populars() {
       .then((res) => res.json())
       .then((data) => data.items);
   });
-
   if (isLoading) return <p>Loading...</p>;
 
   if (error) return <p>{error}</p>;
   return (
     <ul>
       {videos.map((video) => (
-        <VideoCard key={video.id} video={video.snippet} />
+        <VideoCard key={video.id} id={video.id} video={video.snippet} />
       ))}
     </ul>
   );
