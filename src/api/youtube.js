@@ -1,29 +1,51 @@
 import axios from 'axios';
-import { youtubeKey } from '../api_key';
 
 export default class Youtube {
   constructor() {
-    this.key = youtubeKey;
+    this.httpClient = axios.create({
+      baseURL: 'https://youtube.googleapis.com/youtube/v3',
+      params: { key: process.env.REACT_APP_YOUTUBE_API_KEY },
+    });
   }
 
   async search(keyword) {
     return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
   }
 
+  async channelDetail(id) {
+    return this.httpClient
+      .get('channels', {
+        params: {
+          part: 'snippet,statistics',
+          id,
+        },
+      })
+      .then((res) => res.data.items[0]);
+  }
+
   async #searchByKeyword(keyword) {
-    return axios
-      .get(
-        `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${keyword}&type=video&key=${this.key}`
-      )
-      .then((res) => res.data.items)
-      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+    return this.httpClient
+      .get('search', {
+        params: {
+          part: 'snippet',
+          maxResults: 25,
+          type: 'video',
+          q: keyword,
+        },
+      })
+      .then((res) => res.data.items.map((item) => ({ ...item, id: item.id.videoId })));
   }
 
   async #mostPopular() {
-    return axios
-      .get(
-        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=25&regionCode=KR&key=${this.key}`
-      )
+    return this.httpClient
+      .get('videos', {
+        params: {
+          part: 'snippet,statistics',
+          maxResults: 25,
+          chart: 'mostPopular',
+          regionCode: 'KR',
+        },
+      })
       .then((res) => res.data.items);
   }
 }
