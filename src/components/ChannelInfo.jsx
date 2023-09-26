@@ -3,14 +3,23 @@ import React from 'react';
 import Youtube from '../api/youtube';
 
 export default function ChannelInfo({ id }) {
-  const { data: channel } = useQuery(
+  const {
+    isLoading,
+    error,
+    data: channel,
+  } = useQuery(
     ['channel', id],
     () => {
       const youtube = new Youtube();
-      return youtube.channelInfo(id);
+      return youtube.channelDetail(id);
     },
     { staleTime: 1000 * 60 * 3 }
   );
+
+  if (isLoading) return <p>Loading...</p>;
+
+  if (error) return <p>{error}</p>;
+
   const { title, thumbnails } = channel.snippet;
   return (
     <>

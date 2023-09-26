@@ -12,7 +12,7 @@ export default class Youtube {
     return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
   }
 
-  async channelInfo(id) {
+  async channelDetail(id) {
     return this.httpClient
       .get('channels', {
         params: {
