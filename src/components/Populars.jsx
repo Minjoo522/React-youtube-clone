@@ -22,7 +22,7 @@ export default function Populars() {
   return (
     <ul>
       {videos.map((video) => (
-        <VideoCard key={video.id} id={video.id} video={video.snippet} />
+        <VideoCard key={video.id} video={video} />
       ))}
     </ul>
   );
