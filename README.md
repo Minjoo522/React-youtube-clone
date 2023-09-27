@@ -16,9 +16,9 @@
 
 ## 스크린샷
 
-1. 메인 페이지
+1. 메인 페이지<br />
    <img src="img/1.png" width="700px"><br />
-2. 검색 페이지
+2. 검색 페이지<br />
    <img src="img/3.png" width="700px"><br />
 3. 동영상 클릭 후 표시되는 화면
    <img src="img/4.png" width="700px"><br />
