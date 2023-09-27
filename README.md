@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://meek-pothos-722a56.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
-  <a href="https://minjoo522.notion.site/React-YOUTUBE-clone-8e80d2e5666c426a9d1eff6f2342da44" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+  <a href="https://minjoo522.notion.site/React-YOUTUBE-clone-a12010c22cb74bc4b23c9cc14c15b3e8?pvs=4" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 </div>
 
 ## 주요기능
