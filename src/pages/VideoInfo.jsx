@@ -14,9 +14,7 @@ export default function VideoInfo() {
         <div className='relative pt-[56.25%]'>
           <YouTube iframeClassName={'absolute w-full h-full top-0 left-0 rounded-md'} videoId={video.id} />
         </div>
-        <section key={video.id}>
-          <VideoBelow id={video.id} />
-        </section>
+        <VideoBelow id={video.id} />
       </div>
       <aside className='w-full sm:w-full md:w-full lg:w-1/4'>
         <Populars />
