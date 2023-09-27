@@ -15,7 +15,7 @@ export default function VideoDetail() {
           <YouTube iframeClassName={'absolute w-full h-full top-0 left-0 rounded-md'} videoId={video.id} />
         </div>
         <section key={video.id}>
-          <VideoBelow video={video} />
+          <VideoBelow id={video.id} />
         </section>
       </div>
       <aside className='w-full sm:w-full md:w-full lg:w-1/4'>

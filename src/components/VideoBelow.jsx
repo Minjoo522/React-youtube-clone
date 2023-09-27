@@ -1,11 +1,30 @@
 import React, { useState } from 'react';
 import ChannelInfo from './ChannelInfo';
+import { useQuery } from '@tanstack/react-query';
+import Youtube from '../api/youtube';
 
-export default function VideoBelow({ video }) {
+export default function VideoBelow({ id }) {
   const [isExpanded, setIsExpended] = useState(false);
   const handleExpand = () => {
     setIsExpended((prev) => !prev);
   };
+  const {
+    isLoading,
+    error,
+    data: video,
+  } = useQuery(
+    ['video', id],
+    () => {
+      const youtube = new Youtube();
+      return youtube.videoDetail(id);
+    },
+    { staleTime: 1000 * 60 * 3 }
+  );
+
+  if (isLoading) return <p>Loading...</p>;
+
+  if (error) return <p>{error}</p>;
+
   const { title, channelId, description, publishedAt } = video.snippet;
   return (
     <div>

@@ -23,11 +23,22 @@ export default class Youtube {
       .then((res) => res.data.items[0]);
   }
 
+  async videoDetail(id) {
+    return this.httpClient
+      .get('videos', {
+        params: {
+          part: 'snippet,statistics',
+          id,
+        },
+      })
+      .then((res) => res.data.items[0]);
+  }
+
   async #searchByKeyword(keyword) {
     return this.httpClient
       .get('search', {
         params: {
-          part: 'snippet',
+          part: 'snippet,statistics',
           maxResults: 25,
           type: 'video',
           q: keyword,
