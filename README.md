@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React를 이용한 YOUTUBE Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="https://meek-pothos-722a56.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
+  <a href="https://minjoo522.notion.site/React-YOUTUBE-clone-8e80d2e5666c426a9d1eff6f2342da44" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+</div>
 
-## Available Scripts
+## 주요기능
 
-In the project directory, you can run:
+1. 유튜브 API 활용
+2. 인기 동영상 목록 보기
+3. 키워드로 동영상 검색
+4. Tailwind CSS로 구현한 반응형 웹 페이지
+5. 라이트 모드 / 다크 모드 테마
+6. 로컬스토리지에 테마 저장하여 기억
 
-### `npm start`
+## 스크린샷
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 메인 페이지
+   <img src="img/1.png" width="700px"><br />
+2. 검색 페이지
+   <img src="img/3.png" width="700px"><br />
+3. 동영상 클릭 후 표시되는 화면
+   <img src="img/4.png" width="700px"><br />
+4. 동영상의 자세한 정보는 더보기, 간략히 보기 가능
+   <img src="img/5.png" width="700px"><br />
+   <img src="img/6.png" width="700px"><br />
+5. 반응형 웹 페이지
+   <img src="img/7.gif" width="700px"><br />
+   <img src="img/8.gif" width="700px"><br />
+6. 라이트 모드 / 다크모드 테마 : 사용자의 브라우저 초기 설정값을 따라가도록 설정
+   <img src="img/1.png" width="700px"><br />
+   <img src="img/2.png" width="700px"><br />
