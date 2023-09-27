@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import ChannelInfo from './ChannelInfo';
 import { useQuery } from '@tanstack/react-query';
 import Youtube from '../api/youtube';
