@@ -4,7 +4,7 @@ import VideoBelow from '../components/VideoBelow';
 import Populars from '../components/Populars';
 import YouTube from 'react-youtube';
 
-export default function VideoDetail() {
+export default function VideoInfo() {
   const {
     state: { video },
   } = useLocation();
