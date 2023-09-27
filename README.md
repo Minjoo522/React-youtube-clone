@@ -14,6 +14,16 @@
 5. 라이트 모드 / 다크 모드 테마
 6. 로컬스토리지에 테마 저장하여 기억
 
+## 기술 스택
+<div align="center"> 
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/react%20Query-FF4154?style=for-the-badge&logo=reactQuery&logoColor=white"/>
+<img src="https://img.shields.io/badge/react%20Router-CA4245?style=for-the-badge&logo=reactRouter&logoColor=white"/>
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindCSS&logoColor=white"/>
+<img src="https://img.shields.io/badge/youtube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+</div>
+
 ## 스크린샷
 
 1. 메인 페이지<br />
