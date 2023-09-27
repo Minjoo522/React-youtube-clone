@@ -8,6 +8,7 @@ export default function VideoCard({ video }) {
   const navigate = useNavigate();
   return (
     <li
+      className='hover:cursor-pointer'
       onClick={() => {
         navigate(`/videos/watch/${video.id}`, { state: { video } });
       }}>
